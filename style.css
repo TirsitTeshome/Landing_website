@@ -107,7 +107,6 @@ p {
     margin-top: 5%;
 }
 
-
 .btns {
     display: flex;
     gap: 5%;
@@ -125,7 +124,6 @@ p {
     display: flex;
     gap: 10px;
     align-items: center;
-
 }
 
 .btns i {
@@ -136,16 +134,17 @@ p {
     width: 20%;
     font-size: 50px;
 }
-
-.download-btns button:nth-child(2) {
-    color: #262849;
-    border: solid #262849 1px;
-    border-radius: 10px;
-    padding: 15px 30px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-
+.shape {
+    border-radius: 80px;
+    rotate: 19deg;
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 30%;
+    margin-left: -10%;
+    left: 0;
+    z-index: -1;
+    background-color: #EBC2D7;
 }
 
 .left_part a {
@@ -269,13 +268,12 @@ p {
 
 }
 
-
-.growth {
+.expansion {
     text-align: center;
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
-.growth p {
+.expansion p {
     font-size: 40px;
 }
 
