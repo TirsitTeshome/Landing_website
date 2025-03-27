@@ -4,11 +4,14 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .first_section {
     width: 85%;
     margin: 0 auto;
+
+
 }
 
 nav {
@@ -20,7 +23,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: rgb(65, 61, 61);
+    color: grey;
 }
 
 .links {
@@ -62,13 +65,11 @@ nav a {
     align-items: center;
     gap: 3%;
 }
-
-.logo img {
-    height: 40px;
-    width: 50px;
+.logo img{
+    height:40px;
+    width:50px;
     object-fit: contain;
 }
-
 h1 {
     font-size: clamp(3.5rem, 10vw, 5rem);
     color: #262849;
@@ -112,7 +113,7 @@ p {
     display: flex;
     gap: 5%;
     height: 50px;
-    width: 50%;
+    width:50%;
     border-radius: 20%;
 }
 
@@ -204,8 +205,7 @@ p {
     align-items: center;
     justify-content: space-between;
 }
-
-.name {
+.name{
     display: flex;
     justify-content: space-between;
 }
@@ -214,13 +214,11 @@ p {
     font-weight: 600;
     color: black;
 }
-
-#manWithBeard {
-    top: 24%;
+#manWithBeard{
+    top:24%;
 }
-
-.womenUsers {
-    right: -35%;
+.woman_users {
+    right: -25%;
     top: 50%;
     background-color: white;
     padding: 10%;
@@ -229,7 +227,7 @@ p {
     width: 80px;
     position: absolute;
     transform: rotate(16deg);
-
+ 
 }
 
 .image img {
@@ -413,8 +411,6 @@ p {
 .contents {
     text-align: center;
     font-size: 150%;
-    margin: 8% auto;
-
 }
 
 .about-company {
@@ -423,8 +419,8 @@ p {
     margin-top: 5%;
 }
 
-#knowMore_btn {
-    width: 45%;
+#knowMore_btn{
+    width:45%;
     height: 13%;
     background-color: rgb(7, 7, 63);
     color: white;
@@ -432,18 +428,16 @@ p {
     font-size: 100%;
     font-weight: bold;
 }
-
 .mobile-interface {
     font-size: 120%;
     margin-top: 5%;
     width: 23%;
     line-height: 2;
 }
-
-#mobileIcon {
+#mobileIcon{
     font-size: 150%;
     margin-left: 5%;
-    color: purple
+    color:purple
 }
 
 .settings {
@@ -454,59 +448,52 @@ p {
     background-color: whitesmoke;
     padding: 7%;
 }
-
-.designer {
+.designer{
     display: flex;
     justify-content: space-between;
 
 }
-
-#profile_icon {
-    margin-top: 25%;
+#profile_icon{
+    margin-top:25%;
     font-size: 200%;
     rotate: 6deg;
-
+    
 }
-
-.boostUp {
-    rotate: 6deg;
+.boostUp{
+    rotate:6deg;
     margin-right: 10%;
-    padding: 5%;
+   padding:5%;
 }
 
-.boost img {
+.boost img{
     width: 80%;
 }
-
-#bell {
+#bell{
     font-size: 220%;
 }
-
-#signup {
-    width: 100%;
-    height: 15%;
-    border: none;
-    border-radius: 20%;
-    background-color: #FF00FF;
-    color: white;
-    font-weight: bold;
+#signup{
+width:100%;
+height:15%;
+border: none;
+border-radius: 20%;
+background-color: #FF00FF;
+color: white;
+font-weight: bold;
 }
 
-#login {
-    width: 100%;
+#login{
+    width:100%;
     height: 15%;
     border-radius: 20%;
     font-weight: bold;
 }
-
-.boost {
+.boost{
     display: flex;
     justify-content: space-between;
     margin-top: 25%;
 }
-
-.angel {
-    width: 120%;
+.angel{
+    width:120%;
     rotate: 6deg;
 }
 
