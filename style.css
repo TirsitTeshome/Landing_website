@@ -28,8 +28,6 @@ nav a {
     text-align: center;
     gap: 10%;
     width: 60%;
-
-
 }
 
 .buttons {
@@ -44,7 +42,6 @@ nav a {
     border: none;
     background-color: transparent;
     cursor: pointer;
-
 }
 
 #btn2 {
@@ -134,6 +131,7 @@ p {
     width: 20%;
     font-size: 50px;
 }
+
 .shape {
     border-radius: 80px;
     rotate: 19deg;
